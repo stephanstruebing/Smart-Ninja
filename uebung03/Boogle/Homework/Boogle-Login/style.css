@@ -1,0 +1,74 @@
+.block {
+width: 350px;
+margin: 0 auto;
+background-color: #e6e6e6;
+padding: 50px 20px;
+border: 1px solid transparent;
+}
+
+.head {
+width: 130px;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.title {
+text-align: center;
+font-size: 30px;
+font-weight: lighter;
+font-family: arial, helvetica, sans-serif;
+}
+
+.text {
+text-align: center;
+font-size: 15px;
+font-family: arial, helvetica, sans-serif;
+}
+
+.mail {
+display: block;
+width: 90%;
+padding: 10px 15px;
+margin: auto;
+font-size: 15px;
+border: 1px;
+border-style: inset;
+border-radius: 5px;
+}
+
+.pass {
+display: block;
+width: 90%;
+padding: 10px 15px;
+margin: auto;
+font-size: 15px;
+border: 1px;
+border-style: inset;
+border-radius: 5px;
+}
+
+.button {
+display: block;
+width: 100%;
+text-align: center;
+color: #fff;
+background-color: #0066ff;
+padding: 10px 15px;
+font-size: 15px;
+border: 1px solid transparent;
+border-radius: 5px;
+}
+
+.pic {
+width: 80px;
+margin-left: 140px;
+}
+
+.new {
+text-align: center;
+display: block;
+font-family: arial, helvetica, sans-serif;
+color: #0066ff;
+}

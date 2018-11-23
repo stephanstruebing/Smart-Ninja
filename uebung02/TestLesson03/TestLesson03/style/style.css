@@ -1,0 +1,69 @@
+.boxitem{
+    width: 200px;
+    height:50px;
+}
+
+#container2 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 30%;
+    height: 300px;
+    background-color: grey;
+}
+
+/*
+    Das Element wird am Sichtfeld des Nutzers angeheftet und befindet sich auch beim Scrollen an der selben Position.
+*/
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+}
+
+
+#box1 {
+    margin: 10px;           /*alle vier Seiten 10px */
+    background-color: red;
+}
+
+#box2 {
+    padding: 20px 10px;     /*erster Wert top/bottom - zweiter Wert left/right */
+    background-color: green;
+}
+
+#box3 {
+    border: 4px solid black;
+    background-color: yellow;
+}
+
+
+#box4 {
+   position: relative;
+   background-color: red;
+}
+
+/*
+ Box2 wird bei position: relative von ihrer Ursprünglichen Position um -25px nach oben und um 25 Pixel von links weg geschoben
+ Die Ursprüngliche Position wird frei gelassen.
+
+ Wenn du Box2 auf absolute setzt, sollte folgendes passieren:
+    Box2 verliert ihre Ursprungsposition und nachfolgende Elemente rücken nach
+    Box2 wird nicht mehr von ihrer Ursprünglichen Position berechnet, sondern von der des Elternteils (in diesem Fall container)
+*/
+#box5 {
+    position: relative;
+    background-color: green;
+
+    top: -25px;
+    left: 25px;
+}
+
+#box6 {
+    position: relative;
+    background-color: yellow;
+}
+
+
+
