@@ -71,7 +71,7 @@ def edit_service(car_park):
 
     selected_id = car_park[int(id_num)]
 
-    new_service = input("Enter kilometer value for {}: ".format(selected_id.vehicle_info()))
+    new_service = raw_input("Enter kilometer value for {}: ".format(selected_id.vehicle_info()))
     selected_id.service = new_service
 
     print("")
