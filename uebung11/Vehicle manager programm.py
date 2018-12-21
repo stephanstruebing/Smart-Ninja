@@ -30,7 +30,7 @@ def list_of_vehicles(car_park):
 def add_new_vehicle(car_park):
     brand = raw_input("Car Brand: ")
     model = raw_input("Car Model: ")
-    kilometer = raw_input("kilometer: ")
+    kilometer = raw_input("Kilometer: ")
     service_date = raw_input("Service date: ")
 
     new_car = Vehicle(brand=brand, model=model, kilometer=kilometer, service_date=service_date)
@@ -71,7 +71,7 @@ def edit_service(car_park):
 
     selected_id = car_park[int(id_num)]
 
-    new_service = input("Enter mileage value for {}: ".format(selected_id.vehicle_info()))
+    new_service = input("Enter kilometer value for {}: ".format(selected_id.vehicle_info()))
     selected_id.service = new_service
 
     print("")
