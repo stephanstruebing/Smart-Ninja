@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Capital Quiz!</title>
+
+
+</head>
+<body>
+    <h1>Capital country quiz!</h1>
+
+   <p>What is the capital of {{ country }}?</p>
+    <form action="/answer" method="post">
+        <input name="answer">
+        <input type="hidden" name="country" value="{{ country }}">
+        <input type="submit" value="Answer!">
+    </form>
+
+
+</body>
+</html>
